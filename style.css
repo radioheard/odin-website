@@ -4,9 +4,12 @@
 body {
     display: flex 1;
     margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1F2937;
 }
 .header {
-    background-color: #1F2937;
+    
     font-size: 18px;
     color: white;
     font-weight: bold;
@@ -16,8 +19,8 @@ body {
     align-items: center;
 }
 .content {
-    display: flex;
-    padding:36px;
+    display: flex ;
+    padding: 60px;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
@@ -28,15 +31,70 @@ body {
     color: white;
     font-size: 48px;
     font-weight: bolder;
+    align-self: stretch;
+    padding: 16px;
+    justify-content: center;
+    gap: 16px;
 }
 .subtext {
     color: #e5e7eb;
     font-size: 18px;
 }
+.butt1 {
+    align-self: flex-start;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
 .trig {
     width: 500px;
 }
 
+.icons {
+    background-color: rgba(255, 255, 255, 0.918);
+    display: flex;
+    flex-direction: column;
+    margin: 0px -40px;
+}
+
+.headeri {
+display: flex;
+font-size: 36px;
+color: #1F2937;
+font-weight: bolder;
+justify-content: center;
+align-content: center;
+padding: 16px;
+}
+.containeri{
+    padding: 60px 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ color: #1F2937;
+}
+
+.icon {
+    display: flex 1 1 200px;
+    flex-direction: column;
+    flex-basis: 200px;
+    gap: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jug {
+    width: 200px;
+    border: #1F2937;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: groove;
+}   
 ul {
     list-style-type: none;
     display: flex;
