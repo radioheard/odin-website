@@ -95,6 +95,72 @@ padding: 16px;
     border-width: 5px;
     border-style: groove;
 }   
+
+.quote {
+    background-color: #cbcdd1;
+    margin: 0px -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    gap: 10px;
+}
+.quoter {
+    font-size: 20px;
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.signup {
+    background-color: rgba(255, 255, 255, 0.918);
+    margin: 0px -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 300px;
+}
+
+.card {
+    background-color: #3882f6;
+    display: flex;
+    padding: 40px 90px;
+    border-radius: 10px;
+    align-items: center;
+}
+.hsignup {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.subsignup {
+    font-weight: 300;
+    font-size: 16px;
+}
+.butt2 {
+    margin-left: 20px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    padding: 25px 0px
+}
 ul {
     list-style-type: none;
     display: flex;
